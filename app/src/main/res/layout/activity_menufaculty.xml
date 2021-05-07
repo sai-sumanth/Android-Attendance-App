@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/clg"
+    tools:context="com.android.attendance.activity.menufaculty">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="FACULTY ACTIVITIES"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonaddfaculty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/buttonviewfaculty"
+                android:layout_alignLeft="@+id/buttonViewstudent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/roundedbutton"
+                android:text="Add faculty" />
+
+            <Button
+                android:id="@+id/buttonviewfaculty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btnout"
+                android:layout_alignLeft="@+id/buttonaddfaculty"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/roundedbutton"
+                android:text="View faculty" />
+
+            <Button
+                android:id="@+id/btndeletefaculty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/roundedbutton"
+                android:text="Delete faculty" />
+
+            <Button
+                android:id="@+id/btnfacultyid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/roundedbutton"
+                android:text="View Faculty By ID " />
+
+            <Button
+                android:id="@+id/btnupdateaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/roundedbutton"
+                android:text="Update faculty address" />
+
+            <Button
+                android:id="@+id/btnupdatephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/roundedbutton"
+                android:text="Update faculty phone number" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student_information_system"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application
+        android:name="com.android.attendance.context.ApplicationContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.android.attendance.activity.about">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.developers">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.viewfacultyid1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.viewfaculty">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.Facultydetails">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.Studentdetails">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.Facultylogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.updatefacultyphone">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.updatefacultyaddress">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.updatestudentphone">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.updatestudentaddress">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.ViewFacultyID">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.ViewStudentID">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.menufaculty">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.menustudent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.mainmemu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.attendance.activity.DeleteFacultyActivity" />
+        <activity android:name="com.android.attendance.activity.DeleteStudentActivity" />
+        <activity
+            android:name="com.android.attendance.activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.LoginActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.android.attendance.activity.AddFacultyActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.android.attendance.activity.AddStudentActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.android.attendance.activity.ViewFacultyActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.android.attendance.activity.ViewStudentActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.android.attendance.activity.TestActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.android.attendance.activity.ViewStudentByBranchYear"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.android.attendance.activity.AddAttandanceSessionActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.android.attendance.activity.AddAttendanceActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.android.attendance.activity.ViewAttendanceByFacultyActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.android.attendance.activity.ViewAttendancePerStudentActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

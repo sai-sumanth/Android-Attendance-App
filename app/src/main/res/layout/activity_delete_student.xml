@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/clg"
+    tools:context="com.android.attendance.activity.DeleteStudentActivity">
+
+    <EditText
+        android:id="@+id/edittextid"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundedtextview"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Please enter student id"
+        android:inputType="textPersonName"
+        android:textColor="#2196F3"
+        android:textColorHighlight="#B12626" />
+
+    <Button
+        android:id="@+id/btnSubmit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedbutton"
+        android:text="NO" />
+
+    <Button
+        android:id="@+id/btnyes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedbutton"
+        android:text="YES" />
+
+</LinearLayout>

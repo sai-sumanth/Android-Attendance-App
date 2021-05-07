@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/clg"
+    tools:context="com.android.attendance.activity.about">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:text="STUDENT INFORMATION SYSTEM APPLICATION"
+                android:textColor="#201B1B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:text="THIS APPLICATION IS USED TO MAINTAIN THE STUDENT AND FACULTY RECORDS ORDERLY AND SECURELY."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginTop="10dp"
+                android:text="FIRST ADMIN HAS TO ENTER ALL THE RECORDS FOR THE STUDENTS AND FACULTY ACCORDING TO THE GIVEN FIELDS"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="ADMIN ACTIVITIES"
+                android:textColor="#0E0909"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADMIN HAS TO LOG IN BY USING HIS/HER USERNAME AND PASSWORD, LATER HE HAS TO SELECTS FIELDS I.E (STUDENT OR FACULTY) "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ACCORDING TO THE GIVEN FIELDS ADMIN HAS TO FILL ALL THE DETAILS ABOUT THE STUDENT AND FACULTY INFORMATION"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ADMIN CAN ABLE TO ACCESS AND MODIFY THE DATA"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FACULTY ACTIVITIES"
+                android:textColor="#170F0F"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FACULTY HAS LOG IN BY USING HIS/HER USERNAME AND PASSWORD WHICH ARE GIVEN BY ADMIN"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="FACULTY CAN ABLE TO ACCESS DATA BUT NOT MODIFY DATA"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/roundedbutton"
+                android:text="BACK" />
+        </LinearLayout>
+
+</ScrollView>
