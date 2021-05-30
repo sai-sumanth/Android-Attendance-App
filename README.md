@@ -37,7 +37,7 @@ class then register the number of subjects in that class and can mark the attend
 </ul>
 <h3>Admin Login</h3>
 <ul>
- 	<li>Username :-admin</li>
- 	<li>Password :-admin123</li>
+ 	<li>Username :-sai</li>
+ 	<li>Password :-sumanth9</li>
 </ul>
 
